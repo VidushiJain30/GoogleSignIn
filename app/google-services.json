@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "319464975352",
+    "firebase_url": "https://commercialbin-bcb4c.firebaseio.com",
+    "project_id": "commercialbin-bcb4c",
+    "storage_bucket": "commercialbin-bcb4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319464975352:android:51ac9fa609b572838c440d",
+        "android_client_info": {
+          "package_name": "com.example.googlesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319464975352-fa5m7gnnrbgbjg1n0p8nmbjn2g9rv911.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.googlesignin",
+            "certificate_hash": "4568f7078eb092c4030abd2387c43050134d28fd"
+          }
+        },
+        {
+          "client_id": "319464975352-8ee0rtggpqkfkuu8jdgpa6e9kegj04bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYrHpxjgWdibNM6wGrsU5p7l8OeTwuT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319464975352-8ee0rtggpqkfkuu8jdgpa6e9kegj04bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
