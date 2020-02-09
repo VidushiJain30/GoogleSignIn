@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BUY THESE VOUCHERS EACH FOR 100 POINTS"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp" />
+    <Button
+        android:id="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="89dp"
+        android:text="BUY" />
+
+    <Button
+        android:id="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/v3"
+        android:layout_below="@+id/v1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="65dp"
+        android:text="BUY" />
+
+    <Button
+        android:id="@+id/v3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="210dp"
+        android:text="BUY" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toStartOf="@+id/v1"
+        android:layout_toLeftOf="@+id/v1"
+        android:src="@drawable/v1" />
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="250dp"
+        android:layout_toStartOf="@+id/v2"
+        android:layout_toLeftOf="@+id/v2"
+        android:src="@drawable/v2" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="92dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="250dp"
+        android:layout_toStartOf="@+id/v3"
+        android:layout_toLeftOf="@+id/v3"
+        android:src="@drawable/v3" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
